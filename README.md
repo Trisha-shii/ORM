@@ -7,7 +7,13 @@ To develop a Django application to manage an online food delivery platform like 
 
 ## ENTITY RELATIONSHIP DIAGRAM
 
+<<<<<<< HEAD
 ![alt text](<Screenshot 2026-02-04 081718.png>)
+=======
+<img width="1007" height="709" alt="Screenshot 2026-02-04 081718" src="https://github.com/user-attachments/assets/5e0e46e7-1ce3-4f80-86bc-0a48df062e9b" />
+
+
+>>>>>>> fb19d22bdf69c3a26bcbd6ea3387a91502c27a9a
 
 
 ## DESIGN STEPS
@@ -26,11 +32,11 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
+
 # Django ORM Web Application – Order Management
 
 ## PROGRAM
 
----
 
 ## models.py
 
