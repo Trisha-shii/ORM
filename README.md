@@ -7,7 +7,8 @@ To develop a Django application to manage an online food delivery platform like 
 
 ## ENTITY RELATIONSHIP DIAGRAM
 
-![alt text](<Screenshot 2026-02-04 072848.png>)
+![Uploading Screenshot 2026-02-04 081718.png…]()
+
 
 
 ## DESIGN STEPS
