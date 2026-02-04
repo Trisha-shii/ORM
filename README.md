@@ -7,7 +7,7 @@ To develop a Django application to manage an online food delivery platform like 
 
 ## ENTITY RELATIONSHIP DIAGRAM
 
-![alt text](<Screenshot 2026-02-04 072848.png>)
+![alt text](<Screenshot 2026-02-04 081718.png>)
 
 
 ## DESIGN STEPS
@@ -26,17 +26,23 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
-models.py
-`
+# Django ORM Web Application – Order Management
+
+## PROGRAM
+
+---
+
+## models.py
+
+```python
 from django.db import models
 
-# Create your models here.
-
+# Create your models here
 class Order(models.Model):
     order_id = models.IntegerField(primary_key=True)
     user_id = models.IntegerField()
     order_date = models.DateTimeField()
-    delivery_address = models.CharField()
+    delivery_address = models.CharField(max_length=255)
     item_name = models.CharField(max_length=100)
     unit_price = models.DecimalField(max_digits=8, decimal_places=2)
     order_qty = models.IntegerField()
@@ -44,15 +50,16 @@ class Order(models.Model):
 
     def __str__(self):
         return f"Order {self.order_id} by User {self.user_id}"
-`
-admin.py
-`
+
+## admin.py
+
+```python
 from django.contrib import admin
 from .models import Order #our app is delivery and we are importing Order[database] model from models.py file of delivery app
 
 # Register your models here.
 admin.site.register(Order)
-`
+```
 
 ## OUTPUT
 
