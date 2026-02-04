@@ -50,6 +50,7 @@ class Order(models.Model):
 
     def __str__(self):
         return f"Order {self.order_id} by User {self.user_id}"
+```
 
 ## admin.py
 
