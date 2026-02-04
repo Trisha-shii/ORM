@@ -13,7 +13,6 @@ To develop a Django application to manage an online food delivery platform like 
 
 
 
->>>>>>> fb19d22bdf69c3a26bcbd6ea3387a91502c27a9a
 
 
 ## DESIGN STEPS
@@ -29,11 +28,6 @@ Enter the code for admin.py and models.py
 
 ### STEP 4:
 Execute Django admin and create details for 10 books
-
-## PROGRAM
-
-
-# Django ORM Web Application – Order Management
 
 ## PROGRAM
 
